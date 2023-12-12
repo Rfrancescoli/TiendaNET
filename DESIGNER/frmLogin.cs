@@ -34,5 +34,10 @@ namespace DESIGNER
             dtRpta = usuario.iniciarSesion(txtEmail.Text);
             MessageBox.Show(dtRpta.Rows.Count.ToString());
         }
+
+        private void btnAcercade_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

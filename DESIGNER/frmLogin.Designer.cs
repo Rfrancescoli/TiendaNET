@@ -36,6 +36,7 @@ namespace DESIGNER
             this.btnIniciar = new System.Windows.Forms.Button();
             this.btnFinalizar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnAcercade = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtEmail
@@ -100,11 +101,22 @@ namespace DESIGNER
             this.label1.TabIndex = 7;
             this.label1.Text = "Acceso al sistema";
             // 
+            // btnAcercade
+            // 
+            this.btnAcercade.Location = new System.Drawing.Point(106, 332);
+            this.btnAcercade.Name = "btnAcercade";
+            this.btnAcercade.Size = new System.Drawing.Size(145, 22);
+            this.btnAcercade.TabIndex = 8;
+            this.btnAcercade.Text = "Acerca de";
+            this.btnAcercade.UseVisualStyleBackColor = true;
+            this.btnAcercade.Click += new System.EventHandler(this.btnAcercade_Click);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(375, 376);
+            this.Controls.Add(this.btnAcercade);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.btnIniciar);
@@ -128,5 +140,6 @@ namespace DESIGNER
         private System.Windows.Forms.Button btnIniciar;
         private System.Windows.Forms.Button btnFinalizar;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAcercade;
     }
 }
